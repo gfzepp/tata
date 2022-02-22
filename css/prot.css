@@ -231,6 +231,15 @@ textarea {resize:horizontal;}
 }
 
 @media(max-width: 575px) {
+	
+	.header {
+		padding: 20px 0 20px; 
+	}
+
+	.hero {
+		padding: 100px 0 200px;
+	}
+	
 	.hero-title {
 		font-size: 50px;
 		line-height: 70px;
@@ -240,3 +249,15 @@ textarea {resize:horizontal;}
 		font-size: 14px; 
 	}
 }
+
+@media(max-width: 410px) {
+	.hero-title {
+		font-size: 35px;
+		line-height: 40px;
+	}
+
+	.hero-descr {
+		font-size: 12px; 
+	}
+}
+
